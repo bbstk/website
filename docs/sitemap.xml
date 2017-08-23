@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/server-benchmark/</loc>
+    <loc>https://bbstk.github.io/website/posts/server-benchmark/</loc>
     <lastmod>2017-08-23T21:15:45+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://bbstk.github.io/website/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2017-08-23T21:15:45+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://bbstk.github.io/website/</loc>
     <lastmod>2017-08-23T21:15:45+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://bbstk.github.io/website/posts/</loc>
+    <lastmod>2017-08-23T21:15:45+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bbstk.github.io/website/tags/</loc>
     <priority>0</priority>
   </url>
   
