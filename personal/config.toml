@@ -1,0 +1,10 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Ivan's website"
+theme = "purehugo"
+Paginate = 10
+
+[params]
+  githubName = "bbstk"
+  description = "A place for my thoughts, projects, experiments..."
+
