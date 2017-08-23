@@ -94,7 +94,7 @@
 <p>The architecture of a server application is build to be able to deal with large number of requests in a timely manner. Figure 1 shows a simplified view of a client-server system. A server application consists of multiple processes. A dispatcher process receives the requests and gives it to a worker to process. Having multiple workers running at the same time allows for increasing the throughput of the server. Moreover, a highly concurrent application will utilize multi-core hardware better. This means that less machines are needed to support users, ultimately leading to reduced operation cost.</p>
 
 <figure>
-    <img src="/images/server-architecture.jpg" alt="Simplified server architecture" style="width:50x; margin-left: auto; margin-right: auto; display: block;"/>
+    <img src="images/server-architecture.jpg" alt="Simplified server architecture" style="width:50x; margin-left: auto; margin-right: auto; display: block;"/>
     <figcaption style="text-align: center;">Figure 1. Simplified server architecture</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@
 <li>An aggregator that periodically receives a report of the message count from each group and aggregates it.</li>
 <li>A main process that is responsible for initializing, starting, and stopping the worker pool and the aggregator.
 <figure>
-<img src="/images/benchmark-design.jpg" alt="Benchmark Design" style="width: 100%;"/>
+<img src="images/benchmark-design.jpg" alt="Benchmark Design" style="width: 100%;"/>
 <figcaption style="text-align: center;">Figure 2. - The benchmark&rsquo;s design</figcaption>
 </figure></li>
 </ul>
@@ -190,22 +190,22 @@ It is important to note that timestamps are taken on start of the worker-client 
 <p>Overall, this benchmark shows Go performing better than Erlang and Scala with Akka. This is shown across different number of cores and different number of paired processes. On one core Go shows almost twice better throughput. With the increase of the number of cores up until 4 Go quickly scales its throughput. However, after that the benefit of adding more cores becomes less visible. Scala with Akka, on the other hand, start slowly, but adding more cores results in significant increase of throughput when the number of process pairs also increase. Interestingly, Erlang performs great when the number of processes is low, but its throughput quickly degrades with the introduction of more processes to the system.</p>
 
 <figure>
-    <img src="/images/non-blocked-16core.png" alt="16 Cores" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
+    <img src="images/non-blocked-16core.png" alt="16 Cores" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
     <figcaption style="text-align: center;">16 Cores</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/non-blocked-cores-erlang.png" alt="Erlang" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
+    <img src="images/non-blocked-cores-erlang.png" alt="Erlang" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
     <figcaption style="text-align: center;">Erlang</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/non-blocked-cores-golang.png" alt="Go" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
+    <img src="images/non-blocked-cores-golang.png" alt="Go" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
     <figcaption style="text-align: center;">Go</figcaption>
 </figure>
 
 <figure>
-    <img src="/images/non-blocked-cores-scala-akka.png" alt="Scla with Akka" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
+    <img src="images/non-blocked-cores-scala-akka.png" alt="Scla with Akka" style="width: 60%; margin-left: auto; margin-right: auto; display: block;"/>
     <figcaption style="text-align: center;">Scala with Akka</figcaption>
 </figure>
 
