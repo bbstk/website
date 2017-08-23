@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivan&#39;s website</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Ivan&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Aug 2017 21:15:45 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Server Benchmark Story: Design, Implementation, and Results</title>
+      <link>http://example.org/posts/server-benchmark/</link>
+      <pubDate>Wed, 23 Aug 2017 21:15:45 +0100</pubDate>
+      
+      <guid>http://example.org/posts/server-benchmark/</guid>
+      <description>This blog post discusses the requirements of modern day server applications, what benchmarks can be used, and describes a specific example that is used to compare Go, Erlang, and Scala with Akka for building such applications.
+My server is better than yours What does it mean for a server to be good? How is performance measured in such systems? In order to answer these questions, one needs to first understand what servers do.</description>
+    </item>
+    
+  </channel>
+</rss>
